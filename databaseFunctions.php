@@ -9,7 +9,7 @@
 function initdb()
 {
     global $db;
-    $db = new mysqli('localhost', 'root','SPS!23', 'bookstore');
+    $db = new mysqli('localhost', 'root','writeYourPasswordHere', 'bookstore');
     if (mysqli_connect_errno()) {
         echo '<p>Error: Could not connect to database.<br/>
     Please try again later.</p>';
