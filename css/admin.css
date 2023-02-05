@@ -1,0 +1,66 @@
+main {
+    background-color: honeydew;
+}
+
+#bookForm {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 240px 300px 440px;
+    grid-gap: 15px;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+
+#logoutButton {
+    background-color: #cce6ff;
+    width: 100px;
+    height: 30px;
+    margin: 0 0 0 999px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#logoutButton a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+#logoutButton a:hover {
+    color: #00aacc;
+    text-decoration: none;
+}
+
+.errMessage {
+    margin: 0 10px;
+    color: red;
+}
+
+.submitButton {
+    height: 24px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #cce6ff;
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.submitButton:hover {
+    font-weight: bold;
+    color: #00aacc;
+}
+
+#adminLogIn {
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+}

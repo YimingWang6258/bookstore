@@ -1,0 +1,118 @@
+main {
+    display: flex;
+    align-items: center;
+    background-color: honeydew;
+}
+
+#mainLeft {
+    background-color: aliceblue;
+    height: 476px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mainRight {
+    background-color: aliceblue;
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.product {
+    background-color: #cce6ff;
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 60px;
+    flex-wrap: nowrap;
+    width: 350px;
+    height: 220px;
+}
+
+.productDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 14px;
+}
+
+.bookTitle {
+    font-weight: bold;
+}
+
+.bookAuthor {
+    font-style: italic;
+}
+
+.bookPrice {
+    font-weight: bold;
+}
+
+.button {
+    background-color: lavender;
+    width: 100px;
+    height: 30px;
+    margin: 4px 10px 0 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+.button a{
+    color: black;
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: #00aacc;
+    text-decoration: none;
+}
+
+.notSelectedCategoryButton {
+    color: black;
+    background-color: lavender;
+    padding: 10px 14px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 8px;
+    width: max-content;
+    text-decoration: none;
+}
+
+.notSelectedCategoryButton a{
+    color: black;
+    text-decoration: none;
+}
+
+.notSelectedCategoryButton a:hover {
+    color: #00aacc;
+    text-decoration: none;
+}
+
+.selectedCategoryButton {
+    color: black;
+    background-color: #e5eecc;
+    border: 2px solid #D4D4D4;
+    padding: 10px 14px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 8px;
+    width: max-content;
+    text-decoration: none;
+}
+
+.selectedCategoryButton a{
+    color: black;
+    text-decoration: none;
+}
+
+.selectedCategoryButton a:hover {
+    color: #00aacc;
+    text-decoration: none;
+}
+

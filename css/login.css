@@ -1,0 +1,55 @@
+main {
+    background-color: honeydew;
+}
+
+#loginBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titleText {
+    font-size: xx-large;
+    font-weight: bolder;
+    max-width: 1400px;
+    margin-bottom: 20px;
+}
+
+#errMessage{
+    margin: 0 10px;
+    color: red;
+}
+
+#formContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#loginForm{
+    display:grid;
+    grid-template-columns: auto;
+    grid-column-gap: 15px;
+    margin: 0 0 20px 0;
+    justify-items: center;
+}
+
+#loginButton {
+    background-color: #cce6ff;
+    width: 50px;
+    height: 30px;
+    margin: 8px 10px 0 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#loginButton a {
+    color: black;
+    text-decoration: none;
+}
+
+#loginButton a:hover {
+    color: #00aacc;
+    text-decoration: none;
+}
